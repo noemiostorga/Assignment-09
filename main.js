@@ -2,7 +2,7 @@
 function startTime (){
 var today = new Date();
 var hour = today.getHours();
-	(24 > 0) ? true : false;
+	(12 > 0) ? true : false;
 var min = today.getMinutes();
 	(60 > 0) ? true : false;
 var sec = today.getSeconds();

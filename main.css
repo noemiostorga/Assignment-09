@@ -1,15 +1,28 @@
 body {
-	background : url("sky.jpg");
-
+	background : url("sky.jpg") repeat-x;
+	min-height: 500px;
+	min-width: 900px;
+	animation: sky 60s linear infinite;
 }
+
+@keyframes sky {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
+
+
+
 
 #clock {
 	font-size: 100px;
 	font-family: 'Kameron', serif;
 	position: relative;
 	top: 200px;
-	left: 100px;
 	color: white;
 	opacity: .3;
+	float: left;
+	width: 100%;
+	text-align: center;
 	text-shadow: 5px 5px 25px white;
 }
